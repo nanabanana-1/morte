@@ -1,6 +1,6 @@
 <h1 align="center">morte</h1>
 <div align="center">
-  <img src="orochinho.jpg" alt="" width="300">
+  <img src="img/orochinho.jpg" alt="" width="300">
 </div>
 
 <p align="center">
