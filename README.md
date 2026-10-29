@@ -1,12 +1,11 @@
 <h1 align="center">morte</h1>
 <div align="center">
-  <img src="orochinho.jpg" alt="Orochinho Vibes" width="300">
+  <img src="orochinho.jpg" alt="" width="300">
 </div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge" alt="Tkinter">
-  <img src="https://img.shields.io/badge/VIBES-OROCHINHO-red?style=for-the-badge" alt="Vibes">
 </p>
 
 > 🚨 **ALERTA DE PERIGO:** Este projeto contém altos níveis de zoeira, palavras suspeitas e verbos bizarros.
