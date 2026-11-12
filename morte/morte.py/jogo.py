@@ -13,10 +13,13 @@ def carregar_txt(caminho):
     with open(caminho, "r", encoding="utf-8") as arquivo:
         for linha in arquivo:
             palavra = _normalizar_palavra(linha)
-            if palavra:  # ignora linhas vazias
+            if palavra:  
                 palavras.append(palavra)
     return palavras
 
+def filtrar_palavras(palavras, tamanho=7):
+    
+    return [palavra for palavra in palavras if len(palavra) <= tamanho]
 
 
 PASTA = Path(__file__).parent
@@ -25,7 +28,7 @@ lista2 = carregar_txt(PASTA / "palavraslegais.txt")
 lista3 = carregar_txt(PASTA / "verbos.txt")
 
 
-todas_as_palavras = list(set(lista1 + lista2 + lista3))
+todas_as_palavras = filtrar_palavras(list(set(lista1 + lista2 + lista3)), tamanho=7)
 
 
 def _carregar_dicionario_portugues():

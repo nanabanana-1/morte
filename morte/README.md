@@ -22,7 +22,7 @@ Você tem **6 tentativas** para acertar.
 
 ## 🧠 Como Jogar (As Regras)
 
-O tabuleiro é **dinâmico**: ele se adapta ao tamanho da palavra secreta. Se tem 5 colunas, a palavra tem 5 letras. Se tem 9 colunas... boa sorte.
+O tabuleiro é **dinâmico**: ele se adapta ao tamanho da palavra secreta. Se tem 5 colunas, a palavra tem 5 letras, e assim por diante (o máximo é 7).
 
 - 🟩 **Verde:** A letra tá certa no lugar certo.
 - 🟨 **Amarelo:** A letra existe na palavra, mas tá no lugar errado.
@@ -47,4 +47,4 @@ O projeto foi separado em duas partes (porque programadora bom não mistura a ba
 2. Baixe a pasta do projeto e certifique-se de que os arquivos `.txt` estão na mesma pasta que os `.py`.
 3. Abra o terminal e digite:
 ```bash
-python morte.py
+python interface.py
